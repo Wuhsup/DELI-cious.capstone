@@ -17,11 +17,11 @@ public enum BreadSize {
         switch (this) {
 
             case Small:
-                return 4.20;
+                return 6.20;
             case Medium:
-                return 6.45;
+                return 8.45;
             case Large:
-                return 8.85;
+                return 10.85;
             default:
                 return 0.0;
         }
