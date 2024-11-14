@@ -1,5 +1,11 @@
 package com.pluralsight.deli;
 
 public enum SauceType {
-    Ketchup, Mustard, Ranch, Chipotle, BBQ, Oil, Vinegar, Buffalo, TexasPete;
+    KETCHUP,
+    MUSTARD,
+    MAYO,
+    RANCH,
+    CHIPOTLE,
+    THOUSAND_ISLAND,
+    VINAIGRETTE;
 }
