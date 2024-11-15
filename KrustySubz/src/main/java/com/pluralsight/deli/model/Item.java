@@ -1,8 +1,8 @@
 package com.pluralsight.deli.model;
 
 public abstract class Item {
-    private String name;
-    private double price;
+    public String name;
+    public double price;
 
     //created a constructor for subclasses
     public Item(String name, double price) {
@@ -27,6 +27,9 @@ public abstract class Item {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    // Method to calculate additional cost based on toppings and extras.
+    public abstract double getExtraPrice();
 
     // the abstract method was made to calculate the price. this will be implemented in subclasses
     public abstract double totalPrice();
