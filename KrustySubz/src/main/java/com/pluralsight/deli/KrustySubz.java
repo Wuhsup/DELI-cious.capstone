@@ -48,7 +48,7 @@ public class KrustySubz {
                     size = BreadSize.LARGE;
                     break;
                 default:
-                    System.out.println("Woopsiee, looks like you didn't select the correct Bread Size. I'm just going to assume you want a medium.");
+                    System.out.println("Whoopsiee, looks like you didn't select the correct Bread Size. I'm just going to assume you want a medium.");
                     size = BreadSize.MEDIUM;
             }
 
@@ -103,11 +103,10 @@ public class KrustySubz {
             System.out.println("12. Peppers");
             System.out.println("13. Onions");
             System.out.println("14. Tomatoes");
-            System.out.println("15. Jalapenos");
-            System.out.println("16. Cucumbers");
-            System.out.println("17. Pickles");
-            System.out.println("18. Guacamole");
-            System.out.println("19. Mushrooms");
+            System.out.println("15. Cucumbers");
+            System.out.println("16. Pickles");
+            System.out.println("17. Guacamole");
+            System.out.println("18. Mushrooms");
 
             String toppingInput = scanner.nextLine();
             String[] toppingNumbers = toppingInput.split(",");
@@ -218,9 +217,9 @@ public class KrustySubz {
             writer.newLine();
             writer.write("Toppings: " + sandwich.getToppings());
             writer.newLine();
-            writer.write("Extra Meat: " + (sandwich.isExtraMeat() ? "Yes" : "No"));
+            writer.write("Extra Meat: " + (sandwich.isExtraMeat() ? "Si" : "No"));
             writer.newLine();
-            writer.write("Toasted: " + (sandwich.isToasted() ? "Yes" : "No"));
+            writer.write("Toasted: " + (sandwich.isToasted() ? "Si" : "No"));
             writer.newLine();
             writer.write("Total Price: $" + sandwich.totalPrice());
             writer.newLine();
