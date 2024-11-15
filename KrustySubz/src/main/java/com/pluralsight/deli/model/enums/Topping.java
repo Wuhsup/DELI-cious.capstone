@@ -1,4 +1,4 @@
-package com.pluralsight.deli;
+package com.pluralsight.deli.model.enums;
 
 public enum Topping {
 
@@ -24,7 +24,6 @@ public enum Topping {
     Peppers("Veggie"),
     Onions("Veggie"),
     Tomatoes("Veggie"),
-    Jalepenos("Veggie"),
     Cucumbers("Veggie"),
     Pickles("Veggie"),
     Guacamole("Veggie"),
