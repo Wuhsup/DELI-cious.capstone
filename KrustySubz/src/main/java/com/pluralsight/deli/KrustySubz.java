@@ -1,6 +1,6 @@
 package com.pluralsight.deli;
 
-import com.pluralsight.deli.datamanager.Receipt;
+
 import com.pluralsight.deli.model.Drinks;
 import com.pluralsight.deli.model.Item;
 import com.pluralsight.deli.model.Sandwich;
